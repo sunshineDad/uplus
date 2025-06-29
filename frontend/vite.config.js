@@ -25,8 +25,8 @@ export default defineConfig({
       }
     },
     allowedHosts: [
-      'work-1-dnefeptwsfosubzj.prod-runtime.all-hands.dev',
-      'work-2-dnefeptwsfosubzj.prod-runtime.all-hands.dev',
+      'work-1-wxmvdzqsthdoatbq.prod-runtime.all-hands.dev',
+      'work-2-wxmvdzqsthdoatbq.prod-runtime.all-hands.dev',
       'localhost'
     ]
   },
