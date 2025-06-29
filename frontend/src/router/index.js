@@ -44,6 +44,22 @@ const routes = [
       title: 'BITCUP Models - 一键升级-uplus'
     }
   },
+  {
+    path: '/lowcode',
+    name: 'LowCode',
+    component: () => import('@/views/LowCodeView.vue'),
+    meta: {
+      title: 'AI Low-Code Platform - 一键升级-uplus'
+    }
+  },
+  {
+    path: '/memory',
+    name: 'Memory',
+    component: () => import('@/views/MemoryView.vue'),
+    meta: {
+      title: 'Document Memory Intelligence - 一键升级-uplus'
+    }
+  },
   // Redirect any unmatched routes to home
   {
     path: '/:pathMatch(.*)*',

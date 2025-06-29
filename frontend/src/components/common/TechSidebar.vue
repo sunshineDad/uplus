@@ -85,6 +85,21 @@ const BITCUP_ICON = `
   </svg>
 `;
 
+const LOWCODE_ICON = `
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+    <line x1="3" y1="9" x2="21" y2="9"></line>
+    <line x1="9" y1="21" x2="9" y2="9"></line>
+  </svg>
+`;
+
+const MEMORY_ICON = `
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="10"></circle>
+    <path d="M12 6v6l4 2"></path>
+  </svg>
+`;
+
 export default {
   name: 'TechSidebar',
   setup() {
@@ -122,6 +137,16 @@ export default {
         title: 'BITCUP Models',
         path: '/bitcup',
         icon: BITCUP_ICON
+      },
+      {
+        title: 'Low-Code Platform',
+        path: '/lowcode',
+        icon: LOWCODE_ICON
+      },
+      {
+        title: 'Memory Intelligence',
+        path: '/memory',
+        icon: MEMORY_ICON
       }
     ]);
     
