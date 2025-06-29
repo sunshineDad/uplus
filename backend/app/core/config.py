@@ -29,9 +29,9 @@ class Settings(BaseSettings):
     CORS_ORIGINS: List[str] = ["http://localhost:3000", "http://localhost:5173", "http://localhost:8080"]
     
     # AI Configuration
-    DEEPSEEK_API_KEY: str = "sk-46ac4ed1f2144dd4844876880e5c3eca"
-    LITELLM_MODEL: str = "openai/deepseek-chat"
-    LITELLM_API_BASE: str = "https://api.deepseek.com/v1"
+    DEEPSEEK_API_KEY: str = os.getenv("DEEPSEEK_API_KEY", "sk-46ac4ed1f2144dd4844876880e5c3eca")
+    LITELLM_MODEL: str = "deepseek/deepseek-chat"
+    LITELLM_API_BASE: str = "https://api.deepseek.com"
     
     class Config:
         env_file = ".env"

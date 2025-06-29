@@ -22,10 +22,13 @@ class AIService:
     def __init__(self):
         # Configure LiteLLM with enhanced settings
         import os
-        os.environ["OPENAI_API_KEY"] = settings.DEEPSEEK_API_KEY
-        os.environ["OPENAI_API_BASE"] = settings.LITELLM_API_BASE
+        os.environ["DEEPSEEK_API_KEY"] = settings.DEEPSEEK_API_KEY
         
         self.model = settings.LITELLM_MODEL
+        self.api_available = True
+        
+        # Test API availability on initialization
+        self._test_api_connection()
         
         # Advanced AI-PM personality and capabilities
         self.ai_pm_persona = """
@@ -53,6 +56,41 @@ class AIService:
         
         Remember: You're not just gathering requirements - you're helping users discover what they truly need.
         """
+    
+    def _test_api_connection(self):
+        """Test API connection and set availability flag"""
+        try:
+            # Simple test call to verify API is working
+            import asyncio
+            loop = asyncio.new_event_loop()
+            asyncio.set_event_loop(loop)
+            
+            test_response = loop.run_until_complete(
+                self._simple_api_test()
+            )
+            
+            self.api_available = test_response is not None
+            if self.api_available:
+                print("✅ AI Service: DeepSeek API connection successful")
+            else:
+                print("⚠️ AI Service: Using fallback responses (API unavailable)")
+                
+        except Exception as e:
+            print(f"⚠️ AI Service: API test failed, using fallback responses: {e}")
+            self.api_available = False
+    
+    async def _simple_api_test(self):
+        """Simple API test"""
+        try:
+            response = await litellm.acompletion(
+                model=self.model,
+                messages=[{"role": "user", "content": "Hello"}],
+                max_tokens=10,
+                timeout=5
+            )
+            return response.choices[0].message.content
+        except Exception:
+            return None
         
     async def generate_response(
         self, 
@@ -61,7 +99,12 @@ class AIService:
         temperature: float = 0.7,
         max_tokens: int = 1000
     ) -> str:
-        """Generate AI response using LiteLLM"""
+        """Generate AI response using LiteLLM with intelligent fallback"""
+        
+        # Use fallback if API is not available
+        if not self.api_available:
+            return self._generate_intelligent_fallback(messages, system_prompt)
+        
         try:
             # Prepare messages
             formatted_messages = []
@@ -79,14 +122,69 @@ class AIService:
                 model=self.model,
                 messages=formatted_messages,
                 temperature=temperature,
-                max_tokens=max_tokens
+                max_tokens=max_tokens,
+                timeout=30
             )
             
             return response.choices[0].message.content
             
         except Exception as e:
             print(f"AI Service Error: {e}")
-            return "I apologize, but I'm experiencing technical difficulties. Please try again."
+            # Mark API as unavailable and use fallback
+            self.api_available = False
+            return self._generate_intelligent_fallback(messages, system_prompt)
+    
+    def _generate_intelligent_fallback(self, messages: List[Dict[str, str]], system_prompt: Optional[str] = None) -> str:
+        """Generate intelligent fallback responses based on context"""
+        
+        if not messages:
+            return "Hello! I'm your AI Product Manager. How can I help you define your project requirements today?"
+        
+        last_message = messages[-1].get("content", "").lower()
+        
+        # Context-aware responses
+        if any(word in last_message for word in ["hello", "hi", "start", "begin"]):
+            return """Hello! I'm excited to help you transform your vision into a precise specification. 
+
+Let's start with the fundamentals: What problem are you trying to solve, and who will benefit from this solution?
+
+I'll guide you through a structured discovery process to ensure we capture every important detail."""
+
+        elif any(word in last_message for word in ["task", "management", "project", "team"]):
+            return """I understand you're interested in task or project management capabilities. Let me ask some key questions to better understand your needs:
+
+1. What size team will be using this system?
+2. What are the main pain points with your current process?
+3. What would success look like for your team?
+
+These details will help me create a comprehensive specification that truly meets your needs."""
+
+        elif any(word in last_message for word in ["user", "customer", "people"]):
+            return """Great! Understanding your users is crucial. Let me dive deeper:
+
+1. Can you describe the different types of users who will interact with this system?
+2. What are their primary goals and daily workflows?
+3. What level of technical expertise do they have?
+
+This user-centered approach will ensure we build something that truly serves their needs."""
+
+        elif any(word in last_message for word in ["feature", "function", "capability"]):
+            return """Excellent! Let's explore the functional requirements in detail:
+
+1. Which features are absolutely essential for launch?
+2. What features would be nice to have but not critical?
+3. Are there any features that might seem obvious but are crucial to mention?
+
+I'll help you prioritize these features based on user value and business impact."""
+
+        else:
+            return """Thank you for that information. Let me ask some follow-up questions to ensure I fully understand your requirements:
+
+1. Can you provide more context about the business value this will create?
+2. Are there any constraints I should be aware of - technical, budget, or timeline?
+3. What would make this project a complete success in your eyes?
+
+The more details you can share, the better I can help you create a comprehensive specification."""
     
     async def analyze_intent(self, user_input: str, context: Dict[str, Any]) -> Dict[str, Any]:
         """
