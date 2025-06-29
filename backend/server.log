@@ -1,0 +1,403 @@
+INFO:     Will watch for changes in these directories: ['/workspace/uplus/backend']
+INFO:     Uvicorn running on http://0.0.0.0:12000 (Press CTRL+C to quit)
+INFO:     Started reloader process [3665] using WatchFiles
+/openhands/poetry/openhands-ai-5O4_aCHf-py3.12/lib/python3.12/site-packages/litellm/utils.py:31: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+INFO:     Started server process [3669]
+INFO:     Waiting for application startup.
+🚀 Starting 一键升级-uplus platform...
+2025-06-29 12:13:45,602 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-06-29 12:13:45,607 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("projects")
+2025-06-29 12:13:45,607 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:13:45,608 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("users")
+2025-06-29 12:13:45,608 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:13:45,608 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("requirement_sessions")
+2025-06-29 12:13:45,608 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:13:45,609 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("rsd_documents")
+2025-06-29 12:13:45,609 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:13:45,609 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("bitcup_models")
+2025-06-29 12:13:45,609 INFO sqlalchemy.engine.Engine [raw sql] ()
+✅ Database tables created successfully
+2025-06-29 12:13:45,610 INFO sqlalchemy.engine.Engine COMMIT
+INFO:     Application startup complete.
+✅ Database initialized
+INFO:     127.0.0.1:54256 - "GET /health HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/services/ai_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3669]
+🛑 Shutting down 一键升级-uplus platform...
+/openhands/poetry/openhands-ai-5O4_aCHf-py3.12/lib/python3.12/site-packages/litellm/utils.py:31: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+INFO:     Started server process [3989]
+INFO:     Waiting for application startup.
+🚀 Starting 一键升级-uplus platform...
+2025-06-29 12:14:16,024 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-06-29 12:14:16,027 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("projects")
+2025-06-29 12:14:16,027 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:14:16,028 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("users")
+2025-06-29 12:14:16,028 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:14:16,029 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("requirement_sessions")
+2025-06-29 12:14:16,029 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:14:16,029 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("rsd_documents")
+2025-06-29 12:14:16,029 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:14:16,029 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("bitcup_models")
+2025-06-29 12:14:16,029 INFO sqlalchemy.engine.Engine [raw sql] ()
+✅ Database tables created successfully
+2025-06-29 12:14:16,030 INFO sqlalchemy.engine.Engine COMMIT
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/services/ai_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3989]
+✅ Database initialized
+🛑 Shutting down 一键升级-uplus platform...
+/openhands/poetry/openhands-ai-5O4_aCHf-py3.12/lib/python3.12/site-packages/litellm/utils.py:31: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+INFO:     Started server process [4236]
+INFO:     Waiting for application startup.
+🚀 Starting 一键升级-uplus platform...
+2025-06-29 12:15:08,489 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-06-29 12:15:08,493 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("projects")
+2025-06-29 12:15:08,493 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:15:08,493 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("users")
+2025-06-29 12:15:08,493 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:15:08,494 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("requirement_sessions")
+2025-06-29 12:15:08,494 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:15:08,494 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("rsd_documents")
+2025-06-29 12:15:08,494 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:15:08,495 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("bitcup_models")
+2025-06-29 12:15:08,495 INFO sqlalchemy.engine.Engine [raw sql] ()
+✅ Database tables created successfully
+2025-06-29 12:15:08,495 INFO sqlalchemy.engine.Engine COMMIT
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/services/ai_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4236]
+✅ Database initialized
+🛑 Shutting down 一键升级-uplus platform...
+/openhands/poetry/openhands-ai-5O4_aCHf-py3.12/lib/python3.12/site-packages/litellm/utils.py:31: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+INFO:     Started server process [4483]
+INFO:     Waiting for application startup.
+🚀 Starting 一键升级-uplus platform...
+2025-06-29 12:15:57,071 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-06-29 12:15:57,075 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("projects")
+2025-06-29 12:15:57,075 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:15:57,075 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("users")
+2025-06-29 12:15:57,076 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:15:57,076 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("requirement_sessions")
+2025-06-29 12:15:57,076 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:15:57,076 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("rsd_documents")
+2025-06-29 12:15:57,076 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:15:57,077 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("bitcup_models")
+2025-06-29 12:15:57,077 INFO sqlalchemy.engine.Engine [raw sql] ()
+✅ Database tables created successfully
+2025-06-29 12:15:57,078 INFO sqlalchemy.engine.Engine COMMIT
+INFO:     Application startup complete.
+✅ Database initialized
+INFO:     10.2.96.12:35862 - "GET / HTTP/1.1" 200 OK
+INFO:     10.2.96.12:35862 - "GET / HTTP/1.1" 200 OK
+INFO:     10.2.96.12:35862 - "GET / HTTP/1.1" 200 OK
+INFO:     10.2.96.12:35862 - "GET / HTTP/1.1" 200 OK
+INFO:     10.2.96.12:37176 - "GET / HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/services/ai_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4483]
+🛑 Shutting down 一键升级-uplus platform...
+/openhands/poetry/openhands-ai-5O4_aCHf-py3.12/lib/python3.12/site-packages/litellm/utils.py:31: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+INFO:     Started server process [5028]
+INFO:     Waiting for application startup.
+🚀 Starting 一键升级-uplus platform...
+2025-06-29 12:17:38,195 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-06-29 12:17:38,199 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("projects")
+2025-06-29 12:17:38,199 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:17:38,200 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("users")
+2025-06-29 12:17:38,200 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:17:38,200 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("requirement_sessions")
+2025-06-29 12:17:38,200 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:17:38,200 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("rsd_documents")
+2025-06-29 12:17:38,200 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:17:38,201 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("bitcup_models")
+2025-06-29 12:17:38,201 INFO sqlalchemy.engine.Engine [raw sql] ()
+✅ Database tables created successfully
+2025-06-29 12:17:38,202 INFO sqlalchemy.engine.Engine COMMIT
+INFO:     Application startup complete.
+✅ Database initialized
+2025-06-29 12:17:42,327 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-06-29 12:17:42,346 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.name, users.hashed_password, users.is_active, users.is_verified, users.avatar_url, users.created_at, users.updated_at 
+FROM users 
+WHERE users.email = ?
+2025-06-29 12:17:42,347 INFO sqlalchemy.engine.Engine [generated in 0.00028s] ('demo@uplus.ai',)
+2025-06-29 12:17:42,356 INFO sqlalchemy.engine.Engine INSERT INTO projects (id, name, description, status, owner_id, updated_at) VALUES (?, ?, ?, ?, ?, ?) RETURNING created_at
+2025-06-29 12:17:42,356 INFO sqlalchemy.engine.Engine [generated in 0.00025s] ('e8c81109-2f20-4a5d-bc8c-bb25b9f7a088', 'AI Task Manager', 'An intelligent task management system for small teams', 'DRAFT', '46810aa5-852e-4747-9442-f9f78ed56991', None)
+2025-06-29 12:17:42,357 INFO sqlalchemy.engine.Engine COMMIT
+2025-06-29 12:17:42,369 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-06-29 12:17:42,371 INFO sqlalchemy.engine.Engine SELECT projects.id, projects.name, projects.description, projects.status, projects.owner_id, projects.created_at, projects.updated_at 
+FROM projects 
+WHERE projects.id = ?
+2025-06-29 12:17:42,371 INFO sqlalchemy.engine.Engine [generated in 0.00012s] ('e8c81109-2f20-4a5d-bc8c-bb25b9f7a088',)
+INFO:     127.0.0.1:38428 - "POST /api/v1/projects/ HTTP/1.1" 200 OK
+2025-06-29 12:17:42,372 INFO sqlalchemy.engine.Engine ROLLBACK
+2025-06-29 12:17:48,229 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-06-29 12:17:48,229 INFO sqlalchemy.engine.Engine SELECT projects.id, projects.name, projects.description, projects.status, projects.owner_id, projects.created_at, projects.updated_at 
+FROM projects 
+WHERE projects.id = ?
+2025-06-29 12:17:48,229 INFO sqlalchemy.engine.Engine [generated in 0.00015s] ('e8c81109-2f20-4a5d-bc8c-bb25b9f7a088',)
+2025-06-29 12:17:48,232 INFO sqlalchemy.engine.Engine INSERT INTO requirement_sessions (id, project_id, user_id, status, context, dialogue_history, completeness_score, updated_at, completed_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING created_at
+2025-06-29 12:17:48,232 INFO sqlalchemy.engine.Engine [generated in 0.00024s] ('44d4bb14-bcfc-4d52-83ef-6d149af08cfa', 'e8c81109-2f20-4a5d-bc8c-bb25b9f7a088', '46810aa5-852e-4747-9442-f9f78ed56991', 'ACTIVE', '{"project_name": "AI Task Manager", "project_description": "An intelligent task management system for small teams", "session_started": true}', '[]', 0.0, None, None)
+2025-06-29 12:17:48,233 INFO sqlalchemy.engine.Engine COMMIT
+2025-06-29 12:17:48,245 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-06-29 12:17:48,246 INFO sqlalchemy.engine.Engine SELECT requirement_sessions.id, requirement_sessions.project_id, requirement_sessions.user_id, requirement_sessions.status, requirement_sessions.context, requirement_sessions.dialogue_history, requirement_sessions.completeness_score, requirement_sessions.created_at, requirement_sessions.updated_at, requirement_sessions.completed_at 
+FROM requirement_sessions 
+WHERE requirement_sessions.id = ?
+2025-06-29 12:17:48,246 INFO sqlalchemy.engine.Engine [generated in 0.00017s] ('44d4bb14-bcfc-4d52-83ef-6d149af08cfa',)
+INFO:     127.0.0.1:38442 - "POST /api/v1/sessions/ HTTP/1.1" 200 OK
+2025-06-29 12:17:48,247 INFO sqlalchemy.engine.Engine ROLLBACK
+2025-06-29 12:17:54,286 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-06-29 12:17:54,287 INFO sqlalchemy.engine.Engine SELECT requirement_sessions.id, requirement_sessions.project_id, requirement_sessions.user_id, requirement_sessions.status, requirement_sessions.context, requirement_sessions.dialogue_history, requirement_sessions.completeness_score, requirement_sessions.created_at, requirement_sessions.updated_at, requirement_sessions.completed_at 
+FROM requirement_sessions 
+WHERE requirement_sessions.id = ?
+2025-06-29 12:17:54,287 INFO sqlalchemy.engine.Engine [generated in 0.00016s] ('44d4bb14-bcfc-4d52-83ef-6d149af08cfa',)
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mGive Feedback / Get Help: https://github.com/BerriAI/litellm/issues/new[0m
+LiteLLM.Info: If you need to debug this error, use `litellm.set_verbose=True'.
+
+AI Service Error: OpenAIException - LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=deepseek/deepseek-chat
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mGive Feedback / Get Help: https://github.com/BerriAI/litellm/issues/new[0m
+LiteLLM.Info: If you need to debug this error, use `litellm.set_verbose=True'.
+
+AI Service Error: OpenAIException - LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=deepseek/deepseek-chat
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2025-06-29 12:17:54,298 INFO sqlalchemy.engine.Engine UPDATE requirement_sessions SET context=?, dialogue_history=?, completeness_score=?, updated_at=CURRENT_TIMESTAMP WHERE requirement_sessions.id = ?
+2025-06-29 12:17:54,301 INFO sqlalchemy.engine.Engine [generated in 0.00243s] ('{"project_name": "AI Task Manager", "project_description": "An intelligent task management system for small teams", "session_started": true, "summary ... (71 characters truncated) ...  small teams collaborate better and track their w...", "key_features": [], "user_types": [], "business_value": "To be determined", "constraints": []}', '[{"timestamp": "2025-06-29T12:17:54.292665", "user_message": "I want to build a task management system that helps small teams collaborate better and  ... (744 characters truncated) ... d success look like for this project?"], "next_discovery_areas": ["user_identification", "problem_definition", "success_criteria"]}, "metadata": {}}]', 0.1, '44d4bb14-bcfc-4d52-83ef-6d149af08cfa')
+2025-06-29 12:17:54,304 INFO sqlalchemy.engine.Engine COMMIT
+INFO:     127.0.0.1:40278 - "POST /api/v1/ai-pm/interact HTTP/1.1" 200 OK
+INFO:     10.2.46.10:41970 - "GET / HTTP/1.1" 200 OK
+INFO:     10.2.96.12:45710 - "GET / HTTP/1.1" 200 OK
+INFO:     10.2.97.11:34852 - "GET / HTTP/1.1" 200 OK
+INFO:     10.2.97.11:49872 - "GET / HTTP/1.1" 200 OK
+INFO:     10.2.46.10:52484 - "GET / HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/core/config.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [5028]
+🛑 Shutting down 一键升级-uplus platform...
+/openhands/poetry/openhands-ai-5O4_aCHf-py3.12/lib/python3.12/site-packages/litellm/utils.py:31: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+INFO:     Started server process [12169]
+INFO:     Waiting for application startup.
+🚀 Starting 一键升级-uplus platform...
+2025-06-29 12:28:08,800 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-06-29 12:28:08,804 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("projects")
+2025-06-29 12:28:08,804 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:28:08,805 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("users")
+2025-06-29 12:28:08,805 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:28:08,806 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("requirement_sessions")
+2025-06-29 12:28:08,806 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:28:08,806 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("rsd_documents")
+2025-06-29 12:28:08,806 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:28:08,806 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("bitcup_models")
+2025-06-29 12:28:08,806 INFO sqlalchemy.engine.Engine [raw sql] ()
+✅ Database tables created successfully
+2025-06-29 12:28:08,807 INFO sqlalchemy.engine.Engine COMMIT
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/services/ai_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [12169]
+✅ Database initialized
+🛑 Shutting down 一键升级-uplus platform...
+/openhands/poetry/openhands-ai-5O4_aCHf-py3.12/lib/python3.12/site-packages/litellm/utils.py:31: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Process SpawnProcess-7:
+Traceback (most recent call last):
+  File "/openhands/micromamba/envs/openhands/lib/python3.12/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/openhands/micromamba/envs/openhands/lib/python3.12/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/openhands/poetry/openhands-ai-5O4_aCHf-py3.12/lib/python3.12/site-packages/uvicorn/_subprocess.py", line 76, in subprocess_started
+    target(sockets=sockets)
+  File "/openhands/poetry/openhands-ai-5O4_aCHf-py3.12/lib/python3.12/site-packages/uvicorn/server.py", line 61, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/openhands/micromamba/envs/openhands/lib/python3.12/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/openhands/micromamba/envs/openhands/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "uvloop/loop.pyx", line 1518, in uvloop.loop.Loop.run_until_complete
+  File "/openhands/poetry/openhands-ai-5O4_aCHf-py3.12/lib/python3.12/site-packages/uvicorn/server.py", line 68, in serve
+    config.load()
+  File "/openhands/poetry/openhands-ai-5O4_aCHf-py3.12/lib/python3.12/site-packages/uvicorn/config.py", line 467, in load
+    self.loaded_app = import_from_string(self.app)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/openhands/poetry/openhands-ai-5O4_aCHf-py3.12/lib/python3.12/site-packages/uvicorn/importer.py", line 21, in import_from_string
+    module = importlib.import_module(module_str)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/openhands/micromamba/envs/openhands/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspace/uplus/backend/app/main.py", line 15, in <module>
+    from app.api.routes import api_router
+  File "/workspace/uplus/backend/app/api/routes.py", line 6, in <module>
+    from app.api.endpoints import projects, sessions, ai_pm
+  File "/workspace/uplus/backend/app/api/endpoints/ai_pm.py", line 14, in <module>
+    from app.services.ai_service import ai_service
+  File "/workspace/uplus/backend/app/services/ai_service.py", line 1338, in <module>
+    ai_service = AIService()
+                 ^^^^^^^^^^^
+  File "/workspace/uplus/backend/app/services/ai_service.py", line 31, in __init__
+    self._test_api_connection()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AIService' object has no attribute '_test_api_connection'
+WARNING:  WatchFiles detected changes in 'app/services/ai_service.py'. Reloading...
+/openhands/poetry/openhands-ai-5O4_aCHf-py3.12/lib/python3.12/site-packages/litellm/utils.py:31: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+INFO:     Started server process [12662]
+INFO:     Waiting for application startup.
+⚠️ AI Service: API test failed, using fallback responses: Cannot run the event loop while another loop is running
+🚀 Starting 一键升级-uplus platform...
+2025-06-29 12:28:26,561 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-06-29 12:28:26,564 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("projects")
+2025-06-29 12:28:26,564 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:28:26,565 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("users")
+2025-06-29 12:28:26,565 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:28:26,565 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("requirement_sessions")
+2025-06-29 12:28:26,565 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:28:26,566 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("rsd_documents")
+2025-06-29 12:28:26,566 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:28:26,566 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("bitcup_models")
+2025-06-29 12:28:26,566 INFO sqlalchemy.engine.Engine [raw sql] ()
+✅ Database tables created successfully
+2025-06-29 12:28:26,567 INFO sqlalchemy.engine.Engine COMMIT
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/services/ai_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [12662]
+✅ Database initialized
+🛑 Shutting down 一键升级-uplus platform...
+sys:1: RuntimeWarning: coroutine 'AIService._simple_api_test' was never awaited
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+/openhands/poetry/openhands-ai-5O4_aCHf-py3.12/lib/python3.12/site-packages/litellm/utils.py:31: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+INFO:     Started server process [12910]
+INFO:     Waiting for application startup.
+⚠️ AI Service: API test failed, using fallback responses: Cannot run the event loop while another loop is running
+🚀 Starting 一键升级-uplus platform...
+2025-06-29 12:28:49,359 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-06-29 12:28:49,362 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("projects")
+2025-06-29 12:28:49,362 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:28:49,363 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("users")
+2025-06-29 12:28:49,363 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:28:49,363 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("requirement_sessions")
+2025-06-29 12:28:49,363 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:28:49,364 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("rsd_documents")
+2025-06-29 12:28:49,364 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:28:49,364 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("bitcup_models")
+2025-06-29 12:28:49,364 INFO sqlalchemy.engine.Engine [raw sql] ()
+✅ Database tables created successfully
+2025-06-29 12:28:49,364 INFO sqlalchemy.engine.Engine COMMIT
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app/services/bitcup_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [12910]
+✅ Database initialized
+🛑 Shutting down 一键升级-uplus platform...
+sys:1: RuntimeWarning: coroutine 'AIService._simple_api_test' was never awaited
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+/openhands/poetry/openhands-ai-5O4_aCHf-py3.12/lib/python3.12/site-packages/litellm/utils.py:31: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+INFO:     Started server process [13158]
+INFO:     Waiting for application startup.
+⚠️ AI Service: API test failed, using fallback responses: Cannot run the event loop while another loop is running
+🚀 Starting 一键升级-uplus platform...
+2025-06-29 12:30:09,852 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-06-29 12:30:09,857 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("projects")
+2025-06-29 12:30:09,857 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:30:09,857 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("users")
+2025-06-29 12:30:09,857 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:30:09,858 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("requirement_sessions")
+2025-06-29 12:30:09,858 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:30:09,858 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("rsd_documents")
+2025-06-29 12:30:09,858 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:30:09,859 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("bitcup_models")
+2025-06-29 12:30:09,859 INFO sqlalchemy.engine.Engine [raw sql] ()
+✅ Database tables created successfully
+2025-06-29 12:30:09,859 INFO sqlalchemy.engine.Engine COMMIT
+INFO:     Application startup complete.
+✅ Database initialized
+INFO:     10.2.46.10:50850 - "GET / HTTP/1.1" 200 OK
+INFO:     10.2.46.10:48950 - "GET / HTTP/1.1" 200 OK
+INFO:     10.2.46.10:49858 - "GET / HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/services/memory_service.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [13158]
+🛑 Shutting down 一键升级-uplus platform...
+sys:1: RuntimeWarning: coroutine 'AIService._simple_api_test' was never awaited
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+/openhands/poetry/openhands-ai-5O4_aCHf-py3.12/lib/python3.12/site-packages/litellm/utils.py:31: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+INFO:     Started server process [13577]
+INFO:     Waiting for application startup.
+⚠️ AI Service: API test failed, using fallback responses: Cannot run the event loop while another loop is running
+🚀 Starting 一键升级-uplus platform...
+2025-06-29 12:31:40,285 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-06-29 12:31:40,289 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("projects")
+2025-06-29 12:31:40,289 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:31:40,290 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("users")
+2025-06-29 12:31:40,290 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:31:40,290 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("requirement_sessions")
+2025-06-29 12:31:40,290 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:31:40,291 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("rsd_documents")
+2025-06-29 12:31:40,291 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 12:31:40,291 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("bitcup_models")
+2025-06-29 12:31:40,291 INFO sqlalchemy.engine.Engine [raw sql] ()
+✅ Database tables created successfully
+2025-06-29 12:31:40,292 INFO sqlalchemy.engine.Engine COMMIT
+INFO:     Application startup complete.
+✅ Database initialized
+INFO:     10.2.46.10:33904 - "GET / HTTP/1.1" 200 OK
+INFO:     10.2.60.141:32944 - "GET / HTTP/1.1" 200 OK
+INFO:     10.2.60.141:43966 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43656 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.2.60.141:40456 - "GET / HTTP/1.1" 200 OK
+INFO:     10.2.60.141:37504 - "GET / HTTP/1.1" 200 OK
+INFO:     10.2.60.141:33240 - "GET / HTTP/1.1" 200 OK
+INFO:     10.2.60.141:33240 - "GET / HTTP/1.1" 200 OK
+INFO:     10.2.60.141:57608 - "GET / HTTP/1.1" 200 OK
+INFO:     10.2.60.141:57608 - "GET / HTTP/1.1" 200 OK
+INFO:     10.2.60.141:43414 - "GET / HTTP/1.1" 200 OK
+INFO:     10.2.60.141:54658 - "GET / HTTP/1.1" 200 OK
+INFO:     10.2.60.141:33988 - "GET / HTTP/1.1" 200 OK
+INFO:     10.2.60.141:57884 - "GET / HTTP/1.1" 200 OK
