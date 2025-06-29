@@ -1,0 +1,44 @@
+/openhands/poetry/openhands-ai-5O4_aCHf-py3.12/lib/python3.12/site-packages/litellm/utils.py:31: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mGive Feedback / Get Help: https://github.com/BerriAI/litellm/issues/new[0m
+LiteLLM.Info: If you need to debug this error, use `litellm.set_verbose=True'.
+
+⚠️ AI Service: Using fallback responses (API unavailable)
+INFO:     Will watch for changes in these directories: ['/workspace/uplus/backend']
+INFO:     Uvicorn running on http://0.0.0.0:12000 (Press CTRL+C to quit)
+INFO:     Started reloader process [10249] using WatchFiles
+/openhands/poetry/openhands-ai-5O4_aCHf-py3.12/lib/python3.12/site-packages/litellm/utils.py:31: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+
+[1;31mProvider List: https://docs.litellm.ai/docs/providers[0m
+
+
+[1;31mGive Feedback / Get Help: https://github.com/BerriAI/litellm/issues/new[0m
+LiteLLM.Info: If you need to debug this error, use `litellm.set_verbose=True'.
+
+⚠️ AI Service: Using fallback responses (API unavailable)
+INFO:     Started server process [10334]
+INFO:     Waiting for application startup.
+🚀 Starting 一键升级-uplus platform...
+2025-06-29 14:26:19,141 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-06-29 14:26:19,141 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("projects")
+2025-06-29 14:26:19,141 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 14:26:19,142 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("users")
+2025-06-29 14:26:19,142 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 14:26:19,142 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("requirement_sessions")
+2025-06-29 14:26:19,142 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 14:26:19,143 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("rsd_documents")
+2025-06-29 14:26:19,143 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 14:26:19,143 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("bitcup_models")
+2025-06-29 14:26:19,143 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 14:26:19,144 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("generated_code")
+2025-06-29 14:26:19,144 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-06-29 14:26:19,144 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("deployments")
+2025-06-29 14:26:19,144 INFO sqlalchemy.engine.Engine [raw sql] ()
+✅ Database tables created successfully
+2025-06-29 14:26:19,145 INFO sqlalchemy.engine.Engine COMMIT
+INFO:     Application startup complete.

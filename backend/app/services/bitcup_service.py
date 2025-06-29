@@ -596,3 +596,5 @@ class BitcupService:
         }
         
         return method_mapping.get(behavior_type, "POST")
+# Create singleton instance
+bitcup_service = BitcupService()
