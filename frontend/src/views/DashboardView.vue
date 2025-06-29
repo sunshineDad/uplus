@@ -115,7 +115,7 @@
           </div>
         </div>
 
-        <div class="capability-card lowcode-card">
+        <div class="capability-card lowcode-card" @click="navigateToLowCode">
           <div class="card-background">
             <div class="card-gradient"></div>
             <div class="card-pattern"></div>
@@ -145,17 +145,16 @@
                 <span class="metric-label">Powered</span>
               </div>
             </div>
-            <div class="card-action disabled">
-              <span>Coming Soon</span>
+            <div class="card-action">
+              <span>Preview</span>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="12" cy="12" r="10"/>
-                <polyline points="12,6 12,12 16,14"/>
+                <path d="m9 18 6-6-6-6"/>
               </svg>
             </div>
           </div>
         </div>
 
-        <div class="capability-card memory-card">
+        <div class="capability-card memory-card" @click="navigateToMemory">
           <div class="card-background">
             <div class="card-gradient"></div>
             <div class="card-pattern"></div>
@@ -184,11 +183,10 @@
                 <span class="metric-label">Learning</span>
               </div>
             </div>
-            <div class="card-action disabled">
-              <span>Coming Soon</span>
+            <div class="card-action">
+              <span>Preview</span>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="12" cy="12" r="10"/>
-                <polyline points="12,6 12,12 16,14"/>
+                <path d="m9 18 6-6-6-6"/>
               </svg>
             </div>
           </div>
@@ -258,7 +256,7 @@
                 <p class="overview-description">
                   Materialize BITCUP models into living, breathing systems through Intelligent Materialization.
                 </p>
-                <button class="btn btn-outline-primary" disabled>Coming Soon</button>
+                <router-link to="/lowcode" class="btn btn-outline-primary">Preview</router-link>
               </div>
               
               <div class="overview-card">
@@ -266,7 +264,7 @@
                 <p class="overview-description">
                   Create an immortal, ever-learning organizational brain through Temporal Knowledge Graph.
                 </p>
-                <button class="btn btn-outline-primary" disabled>Coming Soon</button>
+                <router-link to="/memory" class="btn btn-outline-primary">Preview</router-link>
               </div>
             </div>
           </div>
@@ -328,6 +326,14 @@ export default {
       router.push('/bitcup');
     };
     
+    const navigateToLowCode = () => {
+      router.push('/lowcode');
+    };
+    
+    const navigateToMemory = () => {
+      router.push('/memory');
+    };
+    
     // Fetch data on component mount
     onMounted(async () => {
       try {
@@ -352,7 +358,9 @@ export default {
       viewProject,
       startSession,
       navigateToAIPM,
-      navigateToBITCUP
+      navigateToBITCUP,
+      navigateToLowCode,
+      navigateToMemory
     };
   }
 };
