@@ -12,7 +12,8 @@ export default defineConfig({
   },
   server: {
     host: '0.0.0.0',
-    port: 12001,
+    port: 12003,
+    strictPort: true,
     cors: true,
     headers: {
       'Access-Control-Allow-Origin': '*',
@@ -24,10 +25,6 @@ export default defineConfig({
         secure: false,
       }
     },
-    allowedHosts: [
-      'work-1-ynjordxmyvmfrlgx.prod-runtime.all-hands.dev',
-      'work-2-ynjordxmyvmfrlgx.prod-runtime.all-hands.dev',
-      'localhost'
-    ]
+    allowedHosts: true
   },
 })

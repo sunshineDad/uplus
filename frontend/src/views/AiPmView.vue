@@ -1575,6 +1575,7 @@ export default {
   }
 }
 </style>
+<style scoped>
 .ai-pm-view {
   display: flex;
   flex-direction: column;
