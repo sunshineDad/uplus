@@ -52,6 +52,7 @@ class BitcupModel(Base):
     # Relationships
     rsd_document = relationship("RSDDocument", back_populates="bitcup_model")
     project = relationship("Project", back_populates="bitcup_models")
+    generated_code = relationship("GeneratedCode", back_populates="bitcup_model")
     
     def __repr__(self):
         return f"<BitcupModel(id={self.id}, project_id={self.project_id}, status={self.status})>"
