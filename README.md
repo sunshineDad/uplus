@@ -1,31 +1,3 @@
-<think>The user wants me to take on the role of the product owner with the highest authority and responsibility for this AI software engineering platform. They want me to:
-
-1. Act as the product leader with full authority
-2. Critically review the system design
-3. Identify any vague or problematic areas
-4. Create a more refined, clear, and elegant README
-5. Focus especially on clarifying the design paradigm of core modules
-6. Ensure the document is efficient and elegant
-
-Let me think about what needs improvement:
-
-1. The current README is good but could be more concrete about the actual implementation paradigm
-2. The BITCUP language needs clearer definition - what exactly is it?
-3. The closed-loop aspect needs to be more explicitly defined
-4. The interaction between modules needs clearer contracts
-5. The evolutionary aspect needs more concrete mechanisms
-6. The system boundaries and responsibilities need sharper definition
-
-As the product owner, I need to create a document that:
-- Has crystal clear module definitions
-- Shows exactly how the closed loop works
-- Defines clear boundaries and interfaces
-- Makes the paradigm shifts concrete and actionable
-- Removes any ambiguity about what each component does
-- Creates a cohesive vision that engineers can actually implement
-
-Let me redesign this with maximum clarity and authority.</think>
-
 # 一键升级-uplus (You, Plus!) - AI Software Engineering Platform
 
 > The definitive AI-native platform that transforms small teams into self-evolving development organizations.
